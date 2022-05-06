@@ -1,0 +1,64 @@
+.user__wrapper{
+    margin: 1rem 0;
+    border-bottom: 1px solid var(--color-border);
+    padding: 0.5rem 0.3rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.user__info{
+    display: flex;
+    align-items: center;
+}
+
+.user__avatar{
+    margin-right: 1rem;
+}
+
+.avatar{
+    height: 3rem;
+    width: 3rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user__detail{
+    display: flex;
+    flex-direction: column;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+.right h4{
+    margin-right: 0.5rem;
+}
+
+.user__status{
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+}
+
+.online{
+    background: green;
+}
+
+.offline{
+    background: red;
+}
+
+.selected__user{
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    background: var(--color-highlight);
+    color: white;
+}
+
+.user__info small{
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

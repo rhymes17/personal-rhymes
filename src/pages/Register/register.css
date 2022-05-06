@@ -1,0 +1,39 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    /* background: var(--color-bg); */
+    align-items: center;
+    border: 1px solid transparent;
+    padding: 1rem 3rem;
+    
+}
+
+.btn__secondary{
+    font-size: 0.9rem;
+}
+
+.btn__secondary:hover{
+    font-size: 1rem;
+}
+
+input{
+    width: 130%;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    background: var(--color-white);
+    border: 2px solid var(--color-highlight);
+    transition: var(--transition);
+}
+
+/* ---------- Media Query ---------- */
+@media screen and (max-width: 1024px){
+    input{
+        width: 100%;
+    }
+    
+}
+  
+  @media screen and (max-width: 600px){
+
+}

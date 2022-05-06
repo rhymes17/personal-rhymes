@@ -1,0 +1,36 @@
+.message__form{
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    width: 97%;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid ;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem auto;
+}
+
+.img__icon{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.message__form input{
+    flex: 1;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    background: inherit;
+    border: none;
+    transition: var(--transition);
+}
+
+.btn__send{
+    padding: 0.5rem;
+    background: inherit;
+    font-size: 0.9rem;
+}
+
+.btn__send:hover{
+    color: var(--color-highlight);
+}
